@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.12/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'commander' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose read json /Users/cmg/bitstarter/package.json
+5 warn package.json node-js-sample@0.0.1 No readme data.
+6 verbose from cache /Users/cmg/bitstarter/package.json
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'commander', null ]
+9 verbose cache add name=undefined spec="commander" args=["commander",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'commander',
+10 verbose parsed url   path: 'commander',
+10 verbose parsed url   href: 'commander' }
+11 silly lockFile bb8e5f5d-commander commander
+12 verbose lock commander /Users/cmg/.npm/bb8e5f5d-commander.lock
+13 silly lockFile bb8e5f5d-commander commander
+14 verbose addNamed [ 'commander', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile e5c00f5a-commander commander@
+17 verbose lock commander@ /Users/cmg/.npm/e5c00f5a-commander.lock
+18 silly lockFile e5c00f5a-commander commander@
+19 error Error: EACCES, open '/Users/cmg/.npm/e5c00f5a-commander.lock'
+19 error  { [Error: EACCES, open '/Users/cmg/.npm/e5c00f5a-commander.lock']
+19 error   errno: 3,
+19 error   code: 'EACCES',
+19 error   path: '/Users/cmg/.npm/e5c00f5a-commander.lock' }
+20 error Please try running this command again as root/Administrator.
+21 error System Darwin 12.4.0
+22 error command "/usr/local/Cellar/node/0.10.12/bin/node" "/usr/local/bin/npm" "install" "commander"
+23 error cwd /Users/cmg/bitstarter
+24 error node -v v0.10.12
+25 error npm -v 1.2.32
+26 error path /Users/cmg/.npm/e5c00f5a-commander.lock
+27 error code EACCES
+28 error errno 3
+29 error stack Error: EACCES, open '/Users/cmg/.npm/e5c00f5a-commander.lock'
+30 verbose exit [ 3, true ]
